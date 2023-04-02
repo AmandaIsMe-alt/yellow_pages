@@ -60,8 +60,8 @@ A página irá atualizar automaticamente todas as vezes que forem feitas mudanç
 
 Agora é também possível abrir o insomnia e lá fazer as requisições, segue abaixo arquivo para importar:
 
-
 Caso não deseje importar, apenas abra o insomnia e em um novo ambiente faça uma requisição do tipo POST usando a URL [http://127.0.0.1:3000/users/](http://127.0.0.1:3000/users/)
+
 ---
 
 ## Modo de usar pelo insomnia:
