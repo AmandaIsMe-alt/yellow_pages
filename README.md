@@ -61,13 +61,11 @@ A página irá atualizar automaticamente todas as vezes que forem feitas mudanç
 
 Agora é também possível abrir o insomnia e lá fazer as requisições, segue abaixo arquivo para importar:
 
-
 Caso não deseje importar, apenas abra o insomnia e em um novo ambiente faça uma requisição do tipo POST usando a URL [http://127.0.0.1:3000/users/](http://127.0.0.1:3000/users/)
+
 ---
 
 ## Modo de usar pelo insomnia:
-
-<br>
 
 ## **Usuário**
 
@@ -189,7 +187,7 @@ Response
 
 ---
 
-## 3.1 Listar contatos
+## 2. Listar contatos
 
 - GET /contacts/
 - Auth: Bearer Token
@@ -211,7 +209,7 @@ Response:
 
 ---
 
-## 3.1 Listar contatos por ID
+## 3. Listar contatos por ID
 
 - GET /contacts/:id
 - Auth: Bearer Token
@@ -233,7 +231,7 @@ Response:
 ```
 ---
 
-## 3.2 Atualizar contatos
+## 4. Atualizar contatos
 
 - PATCH /contacts/:id
 - Auth: Bearer Token
@@ -249,7 +247,7 @@ Request:
 
 ---
 
-## 3.3 Deletar contato
+## 5. Deletar contato
 
 - DELETE /contacts/:id
 - Auth: Bearer Token
