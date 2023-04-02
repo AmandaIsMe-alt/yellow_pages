@@ -22,7 +22,7 @@ Para rodar as migrações:
 
 Ainda em yellow-pages, crie uma pasta chamada migrations dentro de src.
 
-No arquivo data-source.ts faça a substituição abaixo apenas em migrations e apague a linha 6.
+No arquivo data-source.ts faça a substituição abaixo apenas em migrations (última linha) e comente a linha 6.
 
 `migrations: [path.join(__dirname, "./migrations/**.{js,ts}")]`
 
@@ -30,9 +30,9 @@ Em seguida rode o seguinte comando no terminal:
 
 `yarn typeorm migration:generate  src/migrations/initial -d src/data-source.ts`
 
-Dentro da pasta migrations um arquivo foi criado, dentro desse arquivo na linha 4 em name, copie o conteúdo que esta entre as aspas é uma série de numeros precedidos pela palavra inicial.
+Dentro da pasta migrations um arquivo foi criado, dentro desse arquivo na linha 4 em name, copie o conteúdo entre as aspas.
 
-Vá para data-source.ts, lá cole o que copiou em migrations entre [] e faça o devido import também. Para completar a migração, no terminal:
+Vá para data-source.ts, lá cole o que copiou em migrations entre [] e faça o devido import substituindo a linha 6 mencionada anteriormente. Para completar a migração, no terminal:
 
 `yarn typeorm migration:run -d src/data-source.ts`
 
@@ -46,7 +46,8 @@ Ainda na pasta yellow-pages do projeto no terminal rode o seguinte comando:
 
 <br>
 
-Vá para a pasta yellow-front e rode o seguinte comando (clique em + no canto do terminal e abra um novo terminal gitbash, deixe o do yellow-pages rodando o servidor):
+Clique em + no canto direito do terminal e abra um novo terminal gitbash, deixe o yellow-pages rodando o servidor.
+Vá para a pasta yellow-front e rode o seguinte comando:
 
 ### `yarn` ou `yarn install`
 
@@ -57,9 +58,9 @@ O terminal mostrará o link para abrir a aplicação em seu navegador.
 O link provavelmente será [http://127.0.0.1:5173/](http://127.0.0.1:5173/) para visualização. 
 
 A página irá atualizar automaticamente todas as vezes que forem feitas mudanças no código.\
-É possível também no console ver todos os erros.
+É possível no console ver todos os erros.
 
-Agora é também possível abrir o insomnia e lá fazer as requisições, segue abaixo arquivo para importar:\
+Agora é possível abrir o insomnia e lá fazer as requisições, segue abaixo arquivo para importar:\
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=&uri=https%3A%2F%2Fraw.githubusercontent.com%2FAmandaIsMe-alt%2Fyellow_pages%2Fdevelop%2FInsomnia.json)
 
 Caso não deseje importar, apenas abra o insomnia e em um novo ambiente faça uma requisição do tipo POST usando a URL [http://127.0.0.1:3000/users/](http://127.0.0.1:3000/users/)
