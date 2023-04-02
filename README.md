@@ -4,6 +4,7 @@ Esta aplicação funciona como uma lista telefônica. É possível registrar-se,
 
 ---
 
+
 ## Iniciando:
 
 Para iniciar a aplicação basta seguir o scrip abaixo:
