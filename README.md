@@ -59,7 +59,8 @@ O link provavelmente será [http://127.0.0.1:5173/](http://127.0.0.1:5173/) para
 A página irá atualizar automaticamente todas as vezes que forem feitas mudanças no código.\
 É possível também no console ver todos os erros.
 
-Agora é também possível abrir o insomnia e lá fazer as requisições, segue abaixo arquivo para importar:
+Agora é também possível abrir o insomnia e lá fazer as requisições, segue abaixo arquivo para importar:\
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=&uri=https%3A%2F%2Fraw.githubusercontent.com%2FAmandaIsMe-alt%2Fyellow_pages%2Fdevelop%2FInsomnia.json)
 
 Caso não deseje importar, apenas abra o insomnia e em um novo ambiente faça uma requisição do tipo POST usando a URL [http://127.0.0.1:3000/users/](http://127.0.0.1:3000/users/)
 
