@@ -186,7 +186,7 @@ Response
 
 ---
 
-## 3.1 Listar contatos
+## 2. Listar contatos
 
 - GET /contacts/
 - Auth: Bearer Token
@@ -208,7 +208,7 @@ Response:
 
 ---
 
-## 3.1 Listar contatos por ID
+## 3. Listar contatos por ID
 
 - GET /contacts/:id
 - Auth: Bearer Token
@@ -230,7 +230,7 @@ Response:
 ```
 ---
 
-## 3.2 Atualizar contatos
+## 4. Atualizar contatos
 
 - PATCH /contacts/:id
 - Auth: Bearer Token
@@ -246,7 +246,7 @@ Request:
 
 ---
 
-## 3.3 Deletar contato
+## 5. Deletar contato
 
 - DELETE /contacts/:id
 - Auth: Bearer Token
