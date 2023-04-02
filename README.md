@@ -66,8 +66,6 @@ Caso não deseje importar, apenas abra o insomnia e em um novo ambiente faça um
 
 ## Modo de usar pelo insomnia:
 
-<br>
-
 ## **Usuário**
 
 ---
